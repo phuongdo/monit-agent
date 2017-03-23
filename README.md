@@ -2,7 +2,24 @@ Java logging library for for Go Monitor
 
 
 ### Getting started
-Import httpclient library to your pom.xml file
+
+Add your local Maven Repository.
+```xml
+<repositories>
+    <repository>
+        <id>adopt</id>
+        <url>http://192.168.23.191:8081/nexus/content/repositories/12/</url>
+    </repository>
+    <repository>
+        <id>mavencentral</id>
+        <name>Maven Central</name>
+        <url>https://repo1.maven.org/maven2/</url>
+        <layout>default</layout>
+    </repository>
+</repositories>
+```
+
+Then, import httpclient library to your pom.xml file
 ```xml
 <dependency>
     <groupId>org.vcc</groupId>
