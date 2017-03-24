@@ -24,7 +24,7 @@ Then, import httpclient library to your pom.xml file
 <dependency>
     <groupId>org.vcc</groupId>
     <artifactId>monit-agent</artifactId>
-    <version>1.0</version>
+    <version>17.03</version>
 </dependency>
 ```
 ### Basic Example
